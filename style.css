@@ -1,0 +1,342 @@
+/* Your existing CSS */
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+    margin-left: 100px;
+    padding-left: 50px;
+    color: green;
+    font-size: 30px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+/* Continue with your existing CSS */
+.main
+{
+    background: url('backgroundimg1.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    
+}
+.main .btn1{
+    border-radius: 10px 10px;
+    background:green;
+    color: white;
+}
+.main .btn2{
+    border-radius: 10px 10px;
+    background:rgb(200, 237, 200);
+    color: white;
+}
+.main1{
+    background: url('img2.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main1 h2{
+    padding-top: 150px;
+    padding-left: 250px;
+}
+.main1 h5{
+    padding-left: 100px;
+}
+.main1 button {
+    position: relative;
+    left: 200px;
+    top: 10px;
+    border-radius: 10px 10px;
+    background: green;
+    color: white;
+}
+.col-md-12 {
+    text-align: center;
+    position: relative;
+    top:50px;
+    color: white;
+}
+.main2{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 500px;
+    background: rgb(10, 197, 10);
+}
+
+ .border-bottom
+{
+    width: 160px;
+    margin-left: 635px;
+    position: relative;
+    top: 60px;
+    border: 3px solid white;
+}
+.col-md-12 p{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 18px; /* Default font size */
+    line-height: 1.5; 
+}
+
+.col-md-4{
+    padding-top: 100px;
+}
+
+.center-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+@media (max-width: 768px) {
+    .main {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+/* Additional media queries for even smaller screens if needed */
+@media (max-width: 576px) {
+    .main {
+        height: 400px; /* Adjust height for even smaller screens */
+    }
+}
+@media screen and (max-width: 768px) {
+    .main1 button {
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+    }
+    .main1 h5 {
+        padding-left: 20px;
+        color:white;
+        font-weight:400;
+
+    }
+    .main1 h2{
+        padding:60px;
+        padding-left: 20px;
+        color: white;
+        
+    }
+}
+.main3{
+    background:rgb(240, 237, 237);
+    height: 1300px;
+}
+.main3 .col-md-12{
+    color: black;
+    
+}
+.main3 .border-bottom
+{
+    width: 160px;
+    margin-left: 635px;
+    position: relative;
+    top: 60px;
+    border: 3px solid rgb(3, 126, 50);
+}
+
+.card-group .card{
+    position: relative;
+    top: 100px;
+}
+.custom-card-group .card {
+    margin-right: 15px; /* Adjust the horizontal spacing between cards */
+    margin-bottom: 15px; /* Adjust the vertical spacing between cards */
+}
+/* To ensure the last card doesn't have right margin */
+.custom-card-group .card:last-child {
+    margin-right: 0;
+}
+ .main3 .custom-card-group .card {
+    width: 250px; /* Set card width */
+    height: 350px; /* Set card height */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Set position to relative for absolute positioning */
+    margin-bottom: 10px; /* Add margin bottom for small distance between cards */
+    margin-left: 100px;
+}
+.custom-card-group .card img {
+    width: 100%; /* Make image fill the card */
+    height: 230px; /* Maintain aspect ratio */
+}
+.custom-card-group .card .card-body {
+    padding: 15px; /* Add padding inside the card body */
+}
+.custom-card-group .card .shopping-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Add semi-transparent background */
+    padding: 10px;
+}
+.custom-card-group .card .shopping-info button {
+    background-color:green;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.custom-card-group .card .shopping-info .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.custom-card-group .card .shopping-info .stars {
+    color: #f39c12;
+}
+  .main3 .custom-card-group .col-md-4 {
+    margin-bottom:0; /* Adjust the margin as needed */
+}
+
+
+/* Custom styling for the button */
+
+
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .main3{
+        height: auto;
+    }
+.main3 .custom-card-group .card {
+        margin-left: 20px;
+        margin-bottom: -5px; /* Reduce margin for smaller screens */
+        height: 350px;
+    }
+ 
+}
+ .main4{
+    background: #046b1f;
+    width: 100%;
+    height: 750px;
+ }
+ .main4 h6 {
+    color: white;
+    margin-left: 200px;
+padding-top: 50px;
+ }
+ .main4 h2 {
+    color: white;
+    margin-left: 200px;
+
+
+ }
+ .main4 p {
+    color: white;
+    padding-top: 50px;
+    margin-left: 200px;
+
+ }
+.main4 .border-bottom{
+    margin-left: 300px;
+}
+.shop-button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* Remove borders */
+    color: black; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element to set width */
+    font-size: 16px; /* Font size */
+    margin-left: 100px; /* Left margin */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    background: white;
+}
+
+/* Change background color on hover */
+.shop-button:hover {
+    background-color: #45a049;
+}
+.main4 .icons{
+   
+    position: relative;
+    top: -90px;
+}
+@media screen and (min-width: 769px) {
+    .main1 button {
+        margin-left:100px; /* Default margin for larger screens */
+    }
+    .main1 h5 {
+        margin-left:100px ;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+    .border-bottom {
+        width: 40%; /* Full width */
+        margin-left: 140px; /* Reset margin */
+        top: 60; /* Reset top position */
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-md-12 p {
+        text-align: center; /* Align text to the left for smaller screens */
+        font-size: 19px; /* Decrease font size for smaller screens */
+    }
+}
+@media screen and (max-width: 768px) {
+    .main2 {
+        height: 700px;
+    }
+    .card-group .card{
+        position: relative;
+        top: 50px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+   .main3 .border-bottom {
+        width: 40%; /* Full width */
+        margin-left: 140px; /* Reset margin */
+        top: 60; /* Reset top position */
+    }
+}
+@media screen and (max-width: 768px) {
+    .main4{
+        height: 1300px;
+    }
+    .main4 h6{
+margin-left: 20px;   
+ }
+ .main4 h2{
+    margin-left: 20px;   
+     }
+     .main4 p{
+        margin-left: 20px;   
+         }
+         .main4 .border-bottom{
+            margin-left: 20px;   
+             }
+             .shop-button{
+                margin: 0;
+             }
+             .main4 .img3{
+                position: relative;
+                top: 40px;
+                
+             }
+}
+
